@@ -44,37 +44,37 @@ class Dice{
     stroke(0);
     if(random == 1){
       fill(0);
-      circle(myX+38,myY+37,16);
+      ellipse(myX+38,myY+37,16,16);
     } else if(random == 2){
       fill(0);
-      circle(myX+20,myY+20,12);
-      circle(myX+55,myY+55,12);
+      ellipse(myX+20,myY+20,12,12);
+      ellipse(myX+55,myY+55,12,12);
     } else if(random == 3){
       fill(0);
-      circle(myX+55,myY+20,12);
-      circle(myX+20,myY+55,12);
-      circle(myX+38,myY+37,12); 
+      ellipse(myX+55,myY+20,12,12);
+      ellipse(myX+20,myY+55,12,12);
+      ellipse(myX+38,myY+37,12,12); 
     } else if(random == 4){
       fill(0);
-      circle(myX+20,myY+20,12);
-      circle(myX+55,myY+55,12);
-      circle(myX+55,myY+20,12);
-      circle(myX+20,myY+55,12);
+      ellipse(myX+20,myY+20,12,12);
+      ellipse(myX+55,myY+55,12,12);
+      ellipse(myX+55,myY+20,12,12);
+      ellipse(myX+20,myY+55,12,12);
     } else if(random == 5){
       fill(0);
-      circle(myX+20,myY+20,12);
-      circle(myX+55,myY+55,12);
-      circle(myX+55,myY+20,12);
-      circle(myX+20,myY+55,12);
-      circle(myX+38,myY+37,12); 
+      ellipse(myX+20,myY+20,12,12);
+      ellipse(myX+55,myY+55,12,12);
+      ellipse(myX+55,myY+20,12,12);
+      ellipse(myX+20,myY+55,12,12);
+      ellipse(myX+38,myY+37,12,12); 
     } else {
       fill(0);
-      circle(myX+20,myY+20,12);
-      circle(myX+55,myY+55,12);
-      circle(myX+55,myY+20,12);
-      circle(myX+20,myY+55,12);
-      circle(myX+20,myY+38,12);
-      circle(myX+55,myY+38,12);
+      ellipse(myX+20,myY+20,12,12);
+      ellipse(myX+55,myY+55,12,12);
+      ellipse(myX+55,myY+20,12,12);
+      ellipse(myX+20,myY+55,12,12);
+      ellipse(myX+20,myY+38,12,12);
+      ellipse(myX+55,myY+38,12,12);
     }
    }
 } //end of my dice class 
